@@ -18,8 +18,8 @@ class TicTacToe
     string.to_i - 1 
   end
   
-  def move(index, token)
-    @board[index] = token ="X" || token = "O"
+  def move(index, token = "X")
+    @board[index] =  token
   end
   
   
