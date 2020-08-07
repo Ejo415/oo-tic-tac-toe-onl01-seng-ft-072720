@@ -63,5 +63,8 @@ class TicTacToe
     end
   end
   
+  def won?
+    WIN_COMBINATIONS.each
+  
   
   end
