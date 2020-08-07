@@ -18,6 +18,9 @@ class TicTacToe
     string.to_i - 1 
   end
   
+  def move(index, marker)
+    
+  
   
   
   
