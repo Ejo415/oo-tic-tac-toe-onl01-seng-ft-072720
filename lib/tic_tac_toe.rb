@@ -119,6 +119,13 @@ def play
   turn
 end
 
-  
+if won?
+puts "Congatulations #{winner}!"
+elsif draw?
+puts "Cat's Game!"
 end
+end
+
+
+
 end
