@@ -50,6 +50,18 @@ class TicTacToe
     return player
   end
   
+  def turn
+    puts "Please choose a number 1-9:"
+    string = gets.chomp 
+    move = input_to_index(string)
+    if valid_move?(index)
+      player_token = current_player
+      move(index, token)
+      display_board
+    else
+      turn
+    end
+  end
   
   
   end
