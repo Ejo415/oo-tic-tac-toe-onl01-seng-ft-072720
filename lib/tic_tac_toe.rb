@@ -54,7 +54,7 @@ class TicTacToe
     puts "Please choose a number 1-9:"
     string = gets.chomp 
     move = input_to_index(string)
-    if valid_move?(index)
+    if valid_move?
       player_token = current_player
       move(index, token)
       display_board
